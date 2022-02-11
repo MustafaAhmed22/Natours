@@ -29,6 +29,13 @@ body{
     height: 95vh;
     position: relative;
     clip-path: polygon(0 0,100% 0,100% 75vh ,0 100%);
+    transition: .5s;
+
+}
+.header:hover{
+    transform: scale(1.1) rotate(3deg);
+        opacity: .8;
+
 }
 .logo-box{
    /*
@@ -46,7 +53,6 @@ body{
     left: 50%;
     top: 40%;
     transform: translate(-50%,-50%);
-    background-color: brown;
 }
 .primary-heading{
 text-transform: uppercase;
