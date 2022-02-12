@@ -19,6 +19,9 @@ body{
     color: #777;
     padding: 30px;
 }
+::selection{
+    background-color: #7ed56f;
+}
 .header{
     background-image:linear-gradient(to right bottom,
      rgba(126, 213, 111, 0.8),
